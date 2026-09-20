@@ -1,4 +1,4 @@
-# Omega-Model RL Prototype
+# branching-control-benchmark
 
 
 
