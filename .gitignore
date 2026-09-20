@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+experiment_output/
+*.bak
+*.tmp
+.DS_Store
+.vscode/
+.idea/
