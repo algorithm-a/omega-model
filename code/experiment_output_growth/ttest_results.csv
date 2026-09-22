@@ -1,0 +1,3 @@
+cond_a,cond_b,metric,n,t,p,mean_diff
+trained_growth,random_growth,total_reward,30,12.401498051544575,4.056181348047252e-13,6.166788297008532
+trained_growth,constant_reward,total_reward,30,-56.16749621234545,3.8101127015967743e-31,-16.894566357300896

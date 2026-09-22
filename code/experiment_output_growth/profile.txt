@@ -1,0 +1,25 @@
+wall_time=0.0741s
+
+         222965 function calls (222963 primitive calls) in 0.072 seconds
+
+   Ordered by: cumulative time
+   List reduced from 144 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.074    0.074 D:\omega_backup\project\code\omega_growth.py:882(_run)
+       20    0.000    0.000    0.071    0.004 D:\omega_backup\project\code\omega_growth.py:694(step)
+       20    0.000    0.000    0.071    0.004 D:\omega_backup\project\code\omega_growth.py:624(step)
+       20    0.000    0.000    0.049    0.002 D:\omega_backup\project\code\omega_growth.py:382(run_cycle)
+      840    0.002    0.000    0.032    0.000 D:\omega_backup\project\code\omega_growth.py:231(simulate_experience)
+     4500    0.009    0.000    0.023    0.000 {built-in method builtins.sum}
+      840    0.007    0.000    0.016    0.000 D:\omega_backup\project\code\omega_growth.py:246(_simulate_consciousness)
+       20    0.004    0.000    0.014    0.001 D:\omega_backup\project\code\omega_growth.py:368(micro_action)
+       82    0.000    0.000    0.012    0.000 D:\omega_backup\project\code\omega_growth.py:281(global_coherence)
+    21826    0.005    0.000    0.007    0.000 D:\omega_backup\project\code\omega_growth.py:285(<genexpr>)
+        8    0.000    0.000    0.007    0.001 D:\omega_backup\project\code\omega_growth.py:353(coherence_collapse)
+      840    0.001    0.000    0.007    0.000 D:\omega_backup\project\code\omega_growth.py:271(_local_coherence)
+       62    0.004    0.000    0.006    0.000 D:\omega_backup\project\code\omega_growth.py:292(shannon_entropy)
+    52166    0.006    0.000    0.006    0.000 {built-in method builtins.abs}
+     5115    0.003    0.000    0.005    0.000 random.py:551(gauss)
+
+
