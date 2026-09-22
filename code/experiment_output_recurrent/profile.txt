@@ -1,0 +1,25 @@
+wall_time=0.1037s
+
+         222985 function calls (222983 primitive calls) in 0.101 seconds
+
+   Ordered by: cumulative time
+   List reduced from 144 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.103    0.103 D:\omega_backup\project\code\omega_recurrent.py:884(_run)
+       20    0.000    0.000    0.100    0.005 D:\omega_backup\project\code\omega_recurrent.py:692(step)
+       20    0.000    0.000    0.100    0.005 D:\omega_backup\project\code\omega_recurrent.py:625(step)
+       20    0.000    0.000    0.048    0.002 D:\omega_backup\project\code\omega_recurrent.py:383(run_cycle)
+       20    0.004    0.000    0.044    0.002 D:\omega_backup\project\code\omega_recurrent.py:369(micro_action)
+      800    0.002    0.000    0.033    0.000 D:\omega_backup\python\Lib\site-packages\numpy\linalg\linalg.py:2383(norm)
+      840    0.002    0.000    0.031    0.000 D:\omega_backup\project\code\omega_recurrent.py:232(simulate_experience)
+      800    0.031    0.000    0.031    0.000 {method 'dot' of 'numpy.ndarray' objects}
+     4500    0.009    0.000    0.023    0.000 {built-in method builtins.sum}
+      840    0.007    0.000    0.016    0.000 D:\omega_backup\project\code\omega_recurrent.py:247(_simulate_consciousness)
+       82    0.000    0.000    0.012    0.000 D:\omega_backup\project\code\omega_recurrent.py:282(global_coherence)
+    21826    0.005    0.000    0.007    0.000 D:\omega_backup\project\code\omega_recurrent.py:286(<genexpr>)
+        8    0.000    0.000    0.007    0.001 D:\omega_backup\project\code\omega_recurrent.py:354(coherence_collapse)
+      840    0.001    0.000    0.007    0.000 D:\omega_backup\project\code\omega_recurrent.py:272(_local_coherence)
+       62    0.004    0.000    0.006    0.000 D:\omega_backup\project\code\omega_recurrent.py:293(shannon_entropy)
+
+
