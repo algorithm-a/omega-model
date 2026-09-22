@@ -1,0 +1,25 @@
+wall_time=0.0914s
+
+         277096 function calls (277094 primitive calls) in 0.090 seconds
+
+   Ordered by: cumulative time
+   List reduced from 144 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.091    0.091 D:\omega_backup\project\code\omega_branch_action.py:902(_run)
+       20    0.000    0.000    0.088    0.004 D:\omega_backup\project\code\omega_branch_action.py:712(step)
+       20    0.000    0.000    0.088    0.004 D:\omega_backup\project\code\omega_branch_action.py:642(step)
+       20    0.000    0.000    0.055    0.003 D:\omega_backup\project\code\omega_branch_action.py:400(run_cycle)
+      840    0.002    0.000    0.036    0.000 D:\omega_backup\project\code\omega_branch_action.py:230(simulate_experience)
+     4149    0.012    0.000    0.032    0.000 {built-in method builtins.sum}
+       20    0.006    0.000    0.021    0.001 D:\omega_backup\project\code\omega_branch_action.py:367(micro_action_vector)
+       82    0.000    0.000    0.019    0.000 D:\omega_backup\project\code\omega_branch_action.py:280(global_coherence)
+      840    0.008    0.000    0.017    0.000 D:\omega_backup\project\code\omega_branch_action.py:245(_simulate_consciousness)
+    32712    0.008    0.000    0.011    0.000 D:\omega_backup\project\code\omega_branch_action.py:284(<genexpr>)
+       62    0.005    0.000    0.009    0.000 D:\omega_backup\project\code\omega_branch_action.py:291(shannon_entropy)
+      840    0.001    0.000    0.008    0.000 D:\omega_backup\project\code\omega_branch_action.py:270(_local_coherence)
+    73932    0.008    0.000    0.008    0.000 {built-in method builtins.abs}
+       21    0.000    0.000    0.007    0.000 D:\omega_backup\project\code\omega_branch_action.py:608(_get_observation)
+       20    0.000    0.000    0.006    0.000 D:\omega_backup\project\code\omega_branch_action.py:307(check_omega_state)
+
+

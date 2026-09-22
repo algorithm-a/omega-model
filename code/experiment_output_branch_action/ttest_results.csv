@@ -1,0 +1,3 @@
+cond_a,cond_b,metric,n,t,p,mean_diff
+trained_branch,random_branch,total_reward,30,13.403399954608684,5.894252385461872e-14,6.493459007075365
+trained_branch,constant_reward,total_reward,30,-48.64309330308191,2.365466223728354e-29,-15.010897657311213
