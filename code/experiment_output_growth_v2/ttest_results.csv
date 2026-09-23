@@ -1,0 +1,4 @@
+cond_a,cond_b,metric,n,t,p,mean_diff
+trained_growth,random_growth,total_reward,30,1.7215552739032913,0.09580279022356424,1.781566863015038
+trained_growth,frozen_computed,total_reward,30,0.5604679346256414,0.579464936620289,0.6846437350696231
+trained_growth,constant_reward,total_reward,30,5.3900458189293445,8.582442571968594e-06,3.2020395762455918

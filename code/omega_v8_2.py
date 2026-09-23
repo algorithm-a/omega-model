@@ -1166,8 +1166,7 @@ def main():
     if PROFILE_FIRST_SEED:
         profile_single_episode()
     suggested = calibrate_omega_threshold()
-    global OMEGA_THRESHOLD
-    OMEGA_THRESHOLD = suggested
+    # OMEGA_THRESHOLD глобально не меняем
     print(f"[CFG] OMEGA_THRESHOLD = {OMEGA_THRESHOLD:.4f}")
     print(f"[CFG] REWARD_THRESHOLD_C = {REWARD_THRESHOLD_C}")
     print(f"[CFG] BRANCHING_GROWTH_THRESHOLD_C = {BRANCHING_GROWTH_THRESHOLD_C}")
