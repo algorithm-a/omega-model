@@ -1,0 +1,25 @@
+wall_time=0.5429s
+
+         1458827 function calls (1458825 primitive calls) in 0.529 seconds
+
+   Ordered by: cumulative time
+   List reduced from 145 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.543    0.543 D:\omega_backup\project\code\omega_params_control.py:982(_run)
+       20    0.000    0.000    0.540    0.027 D:\omega_backup\project\code\omega_params_control.py:767(step)
+       20    0.000    0.000    0.540    0.027 D:\omega_backup\project\code\omega_params_control.py:684(step)
+       20    0.002    0.000    0.371    0.019 D:\omega_backup\project\code\omega_params_control.py:438(run_cycle)
+     6438    0.015    0.000    0.221    0.000 D:\omega_backup\project\code\omega_params_control.py:236(simulate_experience)
+       20    0.046    0.002    0.156    0.008 D:\omega_backup\project\code\omega_params_control.py:410(micro_action_vector)
+     6438    0.052    0.000    0.119    0.000 D:\omega_backup\project\code\omega_params_control.py:251(_simulate_consciousness)
+    42579    0.050    0.000    0.115    0.000 {built-in method builtins.sum}
+       11    0.000    0.000    0.099    0.009 D:\omega_backup\project\code\omega_params_control.py:358(coherence_collapse)
+       12    0.000    0.000    0.071    0.006 D:\omega_backup\project\code\omega_params_control.py:173(big_bang)
+       12    0.010    0.001    0.071    0.006 D:\omega_backup\project\code\omega_params_control.py:181(generate_multiverse)
+     5796    0.018    0.000    0.056    0.000 D:\omega_backup\project\code\omega_params_control.py:222(_mutate)
+    54732    0.034    0.000    0.054    0.000 random.py:551(gauss)
+       82    0.000    0.000    0.045    0.001 D:\omega_backup\project\code\omega_params_control.py:286(global_coherence)
+     6398    0.003    0.000    0.043    0.000 {method 'mean' of 'numpy.ndarray' objects}
+
+
