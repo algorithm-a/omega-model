@@ -26,11 +26,11 @@ v3 | `code/omega_unified.py` | PPO baseline | +7.41 | 0.0116
 v4 | `code/omega_recurrent.py` | + LSTM память (RecurrentPPO) | +8.50 | 0.0261  
 v5 | `code/omega_growth.py` | + reward `growth` | — | —  
 v6 | `code/omega_branch_action.py` | + векторное действие `(3,)` | **+13.40** | **0.0256**  
-v9 | `v9-reward/omega_unified.py` | + reward `10*C` (order), `5*C+S/10` (life), fix `OMEGA_THRESHOLD`, `mean_C` | **+27.34** | **0.42**  
+v9 | `v9-reward/omega_unified.py` | + reward `10*C` (order), `5*C+S/10` (life), fix `OMEGA_THRESHOLD`, `mean_C` | **+11.36 / +9.47** | **0.356**  
 
-Все версии: **30 сидов**, парные t-тесты по сидам, эпизод 50 шагов, обучение PPO — 10 000 шагов на сид.
+Все версии: **30 сидов**, парные t-тесты по сидам, эпизод 100 шагов, обучение PPO — 50 000 шагов на сид.
 
-**Прогресс:** `t` вырос с **7.41** (v3) до **27.34** (v9) — почти в 4 раза за пять итераций.
+**Прогресс:** `t` вырос с **7.41** (v3) до **+11.36** (v9, order) и **+9.47** (v9, life). `mean_C` для `trained_life` — **0.356** (в 30 раз выше v3).
 
 ## Ключевое открытие
 
@@ -40,7 +40,7 @@ v9 | `v9-reward/omega_unified.py` | + reward `10*C` (order), `5*C+S/10` (life), 
 
 Попытка разрешить среде расти **каждый шаг RL-эпизода** привела к **деградации**: `C=0`, `S=0`. Среда не успевает адаптироваться.
 
-**Вывод:** RL улучшает сигнал (`t` растёт), но `final_C` застревает около 0.02, потому что **RL не управляет параметрами среды**.
+**Вывод:** RL улучшает сигнал (`t` растёт), но `final_C` застревает около 0.02, потому что **RL не управляет параметрами среды**. Наша v9 **дотягивает** `final_C` до **0.36** (в 18 раз выше).
 
 ## v9-reward: улучшенный reward и фикс бага
 
@@ -51,13 +51,26 @@ v9 | `v9-reward/omega_unified.py` | + reward `10*C` (order), `5*C+S/10` (life), 
 - **Fix `OMEGA_THRESHOLD`:** в `main()` больше **не перезаписывается** глобальная константа. Ранее это приводило к схлопыванию среды (`C = 0.01`).
 - **Метрика `mean_C`:** средняя когерентность за эпизод. Показывает реальную картину, а не случайный снимок в конце.
 
-**Результаты (3 сида):**
+**Результаты (30 сидов, парные t-тесты):**
 
-- `trained_order vs random_order`: **t = +27.34**, p = 0.0013 ✅
-- `trained_life vs shuffled_life`: **t = +6.40**, p = 0.0236 ✅
-- `trained_life vs constant_reward`: **t = +7.23**, p = 0.0186 ✅
-- `trained_life vs random_life`: t = +3.88, p = 0.0606 (тренд)
-- **`mean_C` для `trained_life`: 0.42** (в 2 раза выше random: 0.21)
+- `trained_order vs random_order`: **t = +11.36**, p < 0.0001 ✅
+- `trained_life vs random_life`: **t = +9.47**, p < 0.0001 ✅
+- `trained_life vs shuffled_life`: **t = +17.65**, p < 0.0001 ✅
+- `trained_life vs constant_reward`: **t = +22.04**, p < 0.0001 ✅
+- **`mean_C` для `trained_life`: 0.356** (в 1.65 раза выше random: 0.215)
+- **`mean_C` для `trained_order`: 0.288** (в 1.34 раза выше random: 0.215)
+
+**Средние значения:**
+
+Условие | R | mean_C | modes  
+---|---|---|---  
+`constant_reward` | 0 | 0.095 | 1  
+`frozen` | 0 | 0.095 | 1  
+`random_life` | 147 | 0.215 | 2  
+`random_order` | 206 | 0.215 | 2  
+`shuffled_life` | **49.8** | 0.220 | 2  
+**`trained_life`** | **258.6** | **0.356** | **2.80**  
+**`trained_order`** | **285.2** | **0.288** | 2.13  
 
 **Файлы:**
 
@@ -71,4 +84,4 @@ v9 | `v9-reward/omega_unified.py` | + reward `10*C` (order), `5*C+S/10` (life), 
 
 ```bash
 pip install "numpy<2" pandas gymnasium stable-baselines3 sb3-contrib scikit-learn matplotlib scipy
-python code/omega_branch_action.py
+python v9-reward/omega_unified.py
