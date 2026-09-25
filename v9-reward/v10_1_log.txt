@@ -1,0 +1,98 @@
+========================================================================
+ОМЕГА-ЭКСПЕРИМЕНТ (v6: векторное действие)
+========================================================================
+
+[PROFILE] Прогон 1 эпизода (random policy)...
+[PROFILE] wall_time=0.09s
+[PROFILE] top-15 по cumulative:
+         281242 function calls (281240 primitive calls) in 0.088 seconds
+
+   Ordered by: cumulative time
+   List reduced from 137 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.088    0.088 D:\omega-model\v9-reward\omega_vector_v10_1.py:893(_run)
+       20    0.000    0.000    0.085    0.004 D:\omega-model\v9-reward\omega_vector_v10_1.py:710(step)
+       20    0.000    0.000    0.085    0.004 D:\omega-model\v9-reward\omega_vector_v10_1.py:644(step)
+       20    0.000    0.000    0.054    0.003 D:\omega-model\v9-reward\omega_vector_v10_1.py:400(run_cycle)
+      840    0.002    0.000    0.035    0.000 D:\omega-model\v9-reward\omega_vector_v10_1.py:230(simulate_experience)
+     4149    0.013    0.000    0.033    0.000 {built-in method builtins.sum}
+       82    0.000    0.000    0.019    0.000 D:\omega-model\v9-reward\omega_vector_v10_1.py:280(global_coherence)
+       20    0.005    0.000    0.018    0.001 D:\omega-model\v9-reward\omega_vector_v10_1.py:367(micro_action_vector)
+      840    0.007    0.000    0.015    0.000 D:\omega-model\v9-reward\omega_vector_v10_1.py:245(_simulate_consciousness)
+    32712    0.008    0.000    0.011    0.000 D:\omega-model\v9-reward\omega_vector_v10_1.py:284(<genexpr>)
+       62    0.006    0.000    0.009    0.000 D:\omega-model\v9-reward\omega_vector_v10_1.py:291(shannon_entropy)
+      840    0.001    0.000    0.009    0.000 D:\omega-model\v9-reward\omega_vector_v10_1.py:270(_local_coherence)
+    73932    0.008    0.000    0.008    0.000 {built-in method builtins.abs}
+       21    0.000    0.000    0.007    0.000 D:\omega-model\v9-reward\omega_vector_v10_1.py:610(_get_observation)
+       20    0.000    0.000    0.006    0.000 D:\omega-model\v9-reward\omega_vector_v10_1.py:307(check_omega_state)
+
+
+
+[PROFILE] сохранено: experiment_output_branch_action\profile.txt
+[CALIB] coherence: median=0.0892, max=0.1143, suggested_threshold=0.1017
+[CFG] suggested_threshold = 0.1017, keeping OMEGA_THRESHOLD = 0.7500
+
+=== random_order (reward=order, policy=random) ===
+seed=0: R=142.3037, C=0.4307, mC=0.2874, S=6.6706, SE=2.5794, SF=0.1726, modes=2, lambda_proxy=-0.8721
+seed=1: R=128.2772, C=0.3120, mC=0.2600, S=8.2555, SE=2.7049, SF=0.2123, modes=2, lambda_proxy=-1.2568
+seed=2: R=94.0054, C=0.1243, mC=0.1969, S=7.6706, SE=2.6570, SF=0.1643, modes=2, lambda_proxy=-1.3660
+seed=3: R=138.5151, C=0.4795, mC=0.2811, S=8.9925, SE=2.8113, SF=0.2038, modes=2, lambda_proxy=-1.2237
+seed=4: R=130.9740, C=0.7483, mC=0.2661, S=8.9925, SE=2.8119, SF=0.1938, modes=2, lambda_proxy=-1.1782
+
+=== trained_order (reward=order, policy=trained) ===
+seed=0: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=1: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=2: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=3: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=4: ERROR ValueError: Policy MlpLstmPolicy unknown
+
+=== random_life (reward=life, policy=random) ===
+seed=0: R=97.0322, C=0.4307, mC=0.2874, S=6.6706, SE=2.5794, SF=0.1726, modes=2, lambda_proxy=-0.8721
+seed=1: R=89.8618, C=0.3120, mC=0.2600, S=8.2555, SE=2.7049, SF=0.2123, modes=2, lambda_proxy=-1.2568
+seed=2: R=69.2986, C=0.1243, mC=0.1969, S=7.6706, SE=2.6570, SF=0.1643, modes=2, lambda_proxy=-1.3660
+seed=3: R=95.5241, C=0.4795, mC=0.2811, S=8.9925, SE=2.8113, SF=0.2038, modes=2, lambda_proxy=-1.2237
+seed=4: R=89.4770, C=0.7483, mC=0.2661, S=8.9925, SE=2.8119, SF=0.1938, modes=2, lambda_proxy=-1.1782
+
+=== trained_life (reward=life, policy=trained) ===
+seed=0: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=1: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=2: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=3: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=4: ERROR ValueError: Policy MlpLstmPolicy unknown
+
+=== shuffled_life (reward=life, policy=trained) ===
+seed=0: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=1: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=2: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=3: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=4: ERROR ValueError: Policy MlpLstmPolicy unknown
+
+=== constant_reward (reward=life, policy=trained) ===
+seed=0: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=1: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=2: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=3: ERROR ValueError: Policy MlpLstmPolicy unknown
+seed=4: ERROR ValueError: Policy MlpLstmPolicy unknown
+
+========================================================================
+СТАТИСТИЧЕСКИЕ ТЕСТЫ (парный t-test по сидам)
+========================================================================
+   trained_order vs random_order     n= 0, mean_diff=+nan, t=+nan, p=nan
+    trained_life vs random_life      n= 0, mean_diff=+nan, t=+nan, p=nan
+    trained_life vs shuffled_life    n= 0, mean_diff=+nan, t=+nan, p=nan
+    trained_life vs constant_reward  n= 0, mean_diff=+nan, t=+nan, p=nan
+[PLOT] сохранено: experiment_output_branch_action\trajectories.png
+
+========================================================================
+ГОТОВО
+Результаты: experiment_output_branch_action\experiment_results.csv
+Траектории: experiment_output_branch_action\trajectories.npz
+t-тесты:    experiment_output_branch_action\ttest_results.csv
+========================================================================
+
+Средние значения по условиям:
+              total_reward  final_C  final_S  spectral_entropy  spectral_flatness  mode_count
+condition                                                                                    
+random_life        88.2387    0.419   8.1163            2.7129             0.1894         2.0
+random_order      126.8151    0.419   8.1163            2.7129             0.1894         2.0
