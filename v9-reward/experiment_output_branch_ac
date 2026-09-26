@@ -1,4 +1,0 @@
-cond_a,cond_b,metric,n,t,p,mean_diff
-trained_evolution,random_evolution,total_reward,10,2.221525258378022,0.05343087219671434,151.59258360464082
-trained_evolution,shuffled_evolution,total_reward,10,6.68614179386058,8.994631710541737e-05,400.6919634292158
-trained_evolution,constant_reward,total_reward,10,7.5941694962267725,3.346883207310438e-05,452.12046111095924
