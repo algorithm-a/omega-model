@@ -10,3 +10,5 @@ experiment_output/
 .idea/git 
 ssh-keygen 
 tasklist 
+*.zip
+v13_results/*.zip
