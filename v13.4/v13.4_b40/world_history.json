@@ -1,0 +1,636 @@
+{
+  "generations": [
+    {
+      "generation": 1,
+      "time": 16.431984424591064,
+      "manager": "A2",
+      "agents": [
+        {
+          "id": "A1",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.0257,
+          "c_mean": 0.0257,
+          "n_branches": 150,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "A2",
+          "role": "manager",
+          "points": 0.07,
+          "c_last": 0.0697,
+          "c_mean": 0.0697,
+          "n_branches": 164,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "A3",
+          "role": "worker",
+          "points": 0.038,
+          "c_last": 0.063,
+          "c_mean": 0.063,
+          "n_branches": 130,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G5",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.0497,
+          "c_mean": 0.0497,
+          "n_branches": 130,
+          "generation": 1,
+          "parent": "A3"
+        }
+      ],
+      "c_mean_overall": 0.0487
+    },
+    {
+      "generation": 2,
+      "time": 19.471601724624634,
+      "manager": "A3",
+      "agents": [
+        {
+          "id": "A1",
+          "role": "worker",
+          "points": 0.518,
+          "c_last": 0.8627,
+          "c_mean": 0.8627,
+          "n_branches": 18,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "A2",
+          "role": "worker",
+          "points": 0.258,
+          "c_last": 0.8587,
+          "c_mean": 0.8587,
+          "n_branches": 10,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "A3",
+          "role": "manager",
+          "points": 0.874,
+          "c_last": 0.8738,
+          "c_mean": 0.8738,
+          "n_branches": 18,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G6",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7996,
+          "c_mean": 0.7996,
+          "n_branches": 10,
+          "generation": 1,
+          "parent": "A2"
+        }
+      ],
+      "c_mean_overall": 0.8339
+    },
+    {
+      "generation": 3,
+      "time": 21.64333486557007,
+      "manager": "A1",
+      "agents": [
+        {
+          "id": "A1",
+          "role": "manager",
+          "points": 0.918,
+          "c_last": 0.9185,
+          "c_mean": 0.9185,
+          "n_branches": 13,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G7",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.6993,
+          "c_mean": 0.6993,
+          "n_branches": 42,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "A3",
+          "role": "worker",
+          "points": 0.487,
+          "c_last": 0.8119,
+          "c_mean": 0.8119,
+          "n_branches": 33,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G6",
+          "role": "worker",
+          "points": 0.227,
+          "c_last": 0.756,
+          "c_mean": 0.756,
+          "n_branches": 42,
+          "generation": 1,
+          "parent": "A2"
+        }
+      ],
+      "c_mean_overall": 0.7823
+    },
+    {
+      "generation": 4,
+      "time": 24.011456966400146,
+      "manager": "A1",
+      "agents": [
+        {
+          "id": "A1",
+          "role": "manager",
+          "points": 0.853,
+          "c_last": 0.853,
+          "c_mean": 0.853,
+          "n_branches": 17,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G7",
+          "role": "worker",
+          "points": 0.459,
+          "c_last": 0.7649,
+          "c_mean": 0.7649,
+          "n_branches": 22,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G8",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7412,
+          "c_mean": 0.7412,
+          "n_branches": 23,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G6",
+          "role": "worker",
+          "points": 0.225,
+          "c_last": 0.7504,
+          "c_mean": 0.7504,
+          "n_branches": 23,
+          "generation": 1,
+          "parent": "A2"
+        }
+      ],
+      "c_mean_overall": 0.7751
+    },
+    {
+      "generation": 5,
+      "time": 26.170535802841187,
+      "manager": "A1",
+      "agents": [
+        {
+          "id": "A1",
+          "role": "manager",
+          "points": 0.956,
+          "c_last": 0.9555,
+          "c_mean": 0.9555,
+          "n_branches": 5,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G7",
+          "role": "worker",
+          "points": 0.467,
+          "c_last": 0.7791,
+          "c_mean": 0.7791,
+          "n_branches": 31,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G8",
+          "role": "worker",
+          "points": 0.232,
+          "c_last": 0.775,
+          "c_mean": 0.775,
+          "n_branches": 32,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G9",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7332,
+          "c_mean": 0.7332,
+          "n_branches": 32,
+          "generation": 3,
+          "parent": "G8"
+        }
+      ],
+      "c_mean_overall": 0.8003
+    },
+    {
+      "generation": 6,
+      "time": 28.2887122631073,
+      "manager": "G7",
+      "agents": [
+        {
+          "id": "A1",
+          "role": "worker",
+          "points": 0.582,
+          "c_last": 0.9708,
+          "c_mean": 0.9708,
+          "n_branches": 8,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G7",
+          "role": "manager",
+          "points": 0.988,
+          "c_last": 0.988,
+          "c_mean": 0.988,
+          "n_branches": 2,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G8",
+          "role": "worker",
+          "points": 0.258,
+          "c_last": 0.8616,
+          "c_mean": 0.8616,
+          "n_branches": 12,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G10",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7855,
+          "c_mean": 0.7855,
+          "n_branches": 12,
+          "generation": 3,
+          "parent": "G8"
+        }
+      ],
+      "c_mean_overall": 0.8824
+    },
+    {
+      "generation": 7,
+      "time": 30.40264868736267,
+      "manager": "A1",
+      "agents": [
+        {
+          "id": "A1",
+          "role": "manager",
+          "points": 0.995,
+          "c_last": 0.995,
+          "c_mean": 0.995,
+          "n_branches": 2,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G7",
+          "role": "worker",
+          "points": 0.271,
+          "c_last": 0.9028,
+          "c_mean": 0.9028,
+          "n_branches": 13,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G8",
+          "role": "worker",
+          "points": 0.566,
+          "c_last": 0.943,
+          "c_mean": 0.943,
+          "n_branches": 6,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G11",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.8827,
+          "c_mean": 0.8827,
+          "n_branches": 6,
+          "generation": 3,
+          "parent": "G8"
+        }
+      ],
+      "c_mean_overall": 0.9158
+    },
+    {
+      "generation": 8,
+      "time": 32.47116804122925,
+      "manager": "A1",
+      "agents": [
+        {
+          "id": "A1",
+          "role": "manager",
+          "points": 0.879,
+          "c_last": 0.8794,
+          "c_mean": 0.8794,
+          "n_branches": 15,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G7",
+          "role": "worker",
+          "points": 0.507,
+          "c_last": 0.8453,
+          "c_mean": 0.8453,
+          "n_branches": 21,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G8",
+          "role": "worker",
+          "points": 0.233,
+          "c_last": 0.7783,
+          "c_mean": 0.7783,
+          "n_branches": 31,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G12",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7404,
+          "c_mean": 0.7404,
+          "n_branches": 31,
+          "generation": 3,
+          "parent": "G8"
+        }
+      ],
+      "c_mean_overall": 0.8014
+    },
+    {
+      "generation": 9,
+      "time": 34.58893156051636,
+      "manager": "A1",
+      "agents": [
+        {
+          "id": "A1",
+          "role": "manager",
+          "points": 0.975,
+          "c_last": 0.9752,
+          "c_mean": 0.9752,
+          "n_branches": 8,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G7",
+          "role": "worker",
+          "points": 0.244,
+          "c_last": 0.8143,
+          "c_mean": 0.8143,
+          "n_branches": 16,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G13",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7986,
+          "c_mean": 0.7986,
+          "n_branches": 18,
+          "generation": 4,
+          "parent": "G12"
+        },
+        {
+          "id": "G12",
+          "role": "worker",
+          "points": 0.501,
+          "c_last": 0.8346,
+          "c_mean": 0.8346,
+          "n_branches": 18,
+          "generation": 3,
+          "parent": "G8"
+        }
+      ],
+      "c_mean_overall": 0.8467
+    },
+    {
+      "generation": 10,
+      "time": 36.89953684806824,
+      "manager": "A1",
+      "agents": [
+        {
+          "id": "A1",
+          "role": "manager",
+          "points": 0.873,
+          "c_last": 0.8727,
+          "c_mean": 0.8727,
+          "n_branches": 12,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G7",
+          "role": "worker",
+          "points": 0.247,
+          "c_last": 0.8233,
+          "c_mean": 0.8233,
+          "n_branches": 18,
+          "generation": 2,
+          "parent": "G6"
+        },
+        {
+          "id": "G13",
+          "role": "worker",
+          "points": 0.503,
+          "c_last": 0.8389,
+          "c_mean": 0.8389,
+          "n_branches": 15,
+          "generation": 4,
+          "parent": "G12"
+        },
+        {
+          "id": "G14",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.787,
+          "c_mean": 0.787,
+          "n_branches": 15,
+          "generation": 5,
+          "parent": "G13"
+        }
+      ],
+      "c_mean_overall": 0.8175
+    }
+  ],
+  "events": [
+    {
+      "time": 16.398959398269653,
+      "type": "DISPLACE",
+      "generation": 1,
+      "detail": "DISPLACE:A1->A2"
+    },
+    {
+      "time": 16.39927053451538,
+      "type": "DEATH",
+      "generation": 1,
+      "agent": "A4"
+    },
+    {
+      "time": 16.431905031204224,
+      "type": "BIRTH",
+      "generation": 1,
+      "agent": "G5"
+    },
+    {
+      "time": 19.436259269714355,
+      "type": "DISPLACE",
+      "generation": 2,
+      "detail": "DISPLACE:A2->A3"
+    },
+    {
+      "time": 19.43631863594055,
+      "type": "DEATH",
+      "generation": 2,
+      "agent": "G5"
+    },
+    {
+      "time": 19.471532821655273,
+      "type": "BIRTH",
+      "generation": 2,
+      "agent": "G6"
+    },
+    {
+      "time": 21.60617232322693,
+      "type": "DISPLACE",
+      "generation": 3,
+      "detail": "DISPLACE:A3->A1"
+    },
+    {
+      "time": 21.606656789779663,
+      "type": "DEATH",
+      "generation": 3,
+      "agent": "A2"
+    },
+    {
+      "time": 21.643249034881592,
+      "type": "BIRTH",
+      "generation": 3,
+      "agent": "G7"
+    },
+    {
+      "time": 23.976646661758423,
+      "type": "DEATH",
+      "generation": 4,
+      "agent": "A3"
+    },
+    {
+      "time": 24.011369705200195,
+      "type": "BIRTH",
+      "generation": 4,
+      "agent": "G8"
+    },
+    {
+      "time": 26.132877111434937,
+      "type": "DEATH",
+      "generation": 5,
+      "agent": "G6"
+    },
+    {
+      "time": 26.170453786849976,
+      "type": "BIRTH",
+      "generation": 5,
+      "agent": "G9"
+    },
+    {
+      "time": 28.25119638442993,
+      "type": "DISPLACE",
+      "generation": 6,
+      "detail": "DISPLACE:A1->G7"
+    },
+    {
+      "time": 28.251681089401245,
+      "type": "DEATH",
+      "generation": 6,
+      "agent": "G9"
+    },
+    {
+      "time": 28.28862452507019,
+      "type": "BIRTH",
+      "generation": 6,
+      "agent": "G10"
+    },
+    {
+      "time": 30.362691164016724,
+      "type": "DISPLACE",
+      "generation": 7,
+      "detail": "DISPLACE:G7->A1"
+    },
+    {
+      "time": 30.363998413085938,
+      "type": "DEATH",
+      "generation": 7,
+      "agent": "G10"
+    },
+    {
+      "time": 30.402565240859985,
+      "type": "BIRTH",
+      "generation": 7,
+      "agent": "G11"
+    },
+    {
+      "time": 32.43421173095703,
+      "type": "DEATH",
+      "generation": 8,
+      "agent": "G11"
+    },
+    {
+      "time": 32.47108340263367,
+      "type": "BIRTH",
+      "generation": 8,
+      "agent": "G12"
+    },
+    {
+      "time": 34.55036520957947,
+      "type": "DEATH",
+      "generation": 9,
+      "agent": "G8"
+    },
+    {
+      "time": 34.58884572982788,
+      "type": "BIRTH",
+      "generation": 9,
+      "agent": "G13"
+    },
+    {
+      "time": 36.86582899093628,
+      "type": "DEATH",
+      "generation": 10,
+      "agent": "G12"
+    },
+    {
+      "time": 36.89945340156555,
+      "type": "BIRTH",
+      "generation": 10,
+      "agent": "G14"
+    }
+  ]
+}

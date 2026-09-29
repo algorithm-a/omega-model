@@ -1,0 +1,204 @@
+{
+  "generations": [
+    {
+      "generation": 1,
+      "time": 8.659495830535889,
+      "manager": "A4",
+      "agents": [
+        {
+          "id": "A1",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.1114,
+          "c_mean": 0.1114,
+          "n_branches": 39,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G5",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.1393,
+          "c_mean": 0.1393,
+          "n_branches": 35,
+          "generation": 1,
+          "parent": "A3"
+        },
+        {
+          "id": "A3",
+          "role": "worker",
+          "points": 0.085,
+          "c_last": 0.1422,
+          "c_mean": 0.1422,
+          "n_branches": 35,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "A4",
+          "role": "manager",
+          "points": 0.167,
+          "c_last": 0.167,
+          "c_mean": 0.167,
+          "n_branches": 37,
+          "generation": 0,
+          "parent": null
+        }
+      ],
+      "c_mean_overall": 0.1393
+    },
+    {
+      "generation": 2,
+      "time": 16.649049282073975,
+      "manager": "A3",
+      "agents": [
+        {
+          "id": "G6",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.1213,
+          "c_mean": 0.1213,
+          "n_branches": 92,
+          "generation": 1,
+          "parent": "A4"
+        },
+        {
+          "id": "G5",
+          "role": "worker",
+          "points": 0.053,
+          "c_last": 0.1775,
+          "c_mean": 0.1775,
+          "n_branches": 91,
+          "generation": 1,
+          "parent": "A3"
+        },
+        {
+          "id": "A3",
+          "role": "manager",
+          "points": 0.265,
+          "c_last": 0.2646,
+          "c_mean": 0.2646,
+          "n_branches": 131,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "A4",
+          "role": "worker",
+          "points": 0.109,
+          "c_last": 0.1819,
+          "c_mean": 0.1819,
+          "n_branches": 92,
+          "generation": 0,
+          "parent": null
+        }
+      ],
+      "c_mean_overall": 0.1712
+    },
+    {
+      "generation": 3,
+      "time": 25.50722360610962,
+      "manager": "G6",
+      "agents": [
+        {
+          "id": "G6",
+          "role": "manager",
+          "points": 0.22,
+          "c_last": 0.2202,
+          "c_mean": 0.2202,
+          "n_branches": 183,
+          "generation": 1,
+          "parent": "A4"
+        },
+        {
+          "id": "G7",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.1445,
+          "c_mean": 0.1445,
+          "n_branches": 181,
+          "generation": 1,
+          "parent": "A4"
+        },
+        {
+          "id": "A3",
+          "role": "worker",
+          "points": 0.126,
+          "c_last": 0.2099,
+          "c_mean": 0.2099,
+          "n_branches": 252,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "A4",
+          "role": "worker",
+          "points": 0.046,
+          "c_last": 0.1535,
+          "c_mean": 0.1535,
+          "n_branches": 181,
+          "generation": 0,
+          "parent": null
+        }
+      ],
+      "c_mean_overall": 0.1798
+    }
+  ],
+  "events": [
+    {
+      "time": 8.61998462677002,
+      "type": "DISPLACE",
+      "generation": 1,
+      "detail": "DISPLACE:A1->A4"
+    },
+    {
+      "time": 8.62045168876648,
+      "type": "DEATH",
+      "generation": 1,
+      "agent": "A2"
+    },
+    {
+      "time": 8.659403562545776,
+      "type": "BIRTH",
+      "generation": 1,
+      "agent": "G5"
+    },
+    {
+      "time": 16.61438775062561,
+      "type": "DISPLACE",
+      "generation": 2,
+      "detail": "DISPLACE:A4->A3"
+    },
+    {
+      "time": 16.6148738861084,
+      "type": "DEATH",
+      "generation": 2,
+      "agent": "A1"
+    },
+    {
+      "time": 16.64895796775818,
+      "type": "BIRTH",
+      "generation": 2,
+      "agent": "G6"
+    },
+    {
+      "time": 25.476277351379395,
+      "type": "DISPLACE",
+      "generation": 3,
+      "detail": "DISPLACE:A3->G6"
+    },
+    {
+      "time": 25.476773023605347,
+      "type": "DEATH",
+      "generation": 3,
+      "agent": "G5"
+    },
+    {
+      "time": 25.507137537002563,
+      "type": "BIRTH",
+      "generation": 3,
+      "agent": "G7"
+    }
+  ]
+}

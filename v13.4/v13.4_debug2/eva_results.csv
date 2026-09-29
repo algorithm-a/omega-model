@@ -1,0 +1,4 @@
+generation,manager,c_mean,c_best,dead,born,time_sec
+1,A2,0.0867,0.1112,A3,G5,8.0
+2,A2,0.0882,0.1112,A1,G6,8.3
+3,A2,0.091,0.1112,G6,G7,8.1
