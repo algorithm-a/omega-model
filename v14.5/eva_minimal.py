@@ -1363,6 +1363,8 @@ def parse_args():
     p.add_argument("--agents-per-clan", type=int, default=4)
     p.add_argument("--branches-per-agent", type=int, default=100)
     p.add_argument("--seeds", type=int, default=3)
+    p.add_argument("--seed-start", type=int, default=0,
+                   help="начальный seed")
     p.add_argument("--generations", type=int, default=10)
     p.add_argument("--final-generations", type=int, default=5)
     p.add_argument("--episodes-per-gen", type=int, default=3)
@@ -1395,7 +1397,7 @@ def main():
     cfg.delta_c_bonus = float(args.delta_c_bonus)
     cfg.__post_init__()
 
-    seeds = list(range(args.seeds))
+    seeds = list(range(args.seed_start, args.seed_start + args.seeds))
 
     train_eva_clans(
         config=cfg,
