@@ -1,0 +1,1968 @@
+{
+  "generations": [
+    {
+      "generation": 11,
+      "time": 376.0595393180847,
+      "manager": "K3_G6",
+      "agents": [
+        {
+          "id": "K0_G7",
+          "role": "worker",
+          "points": 0.42,
+          "c_last": 0.7351,
+          "c_mean": 0.7351,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C0_A3"
+        },
+        {
+          "id": "G9",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.6884,
+          "c_mean": 0.6884,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C5_A1"
+        },
+        {
+          "id": "K2_G1",
+          "role": "worker",
+          "points": 0.642,
+          "c_last": 0.7485,
+          "c_mean": 0.7485,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C2_A2"
+        },
+        {
+          "id": "K3_G6",
+          "role": "manager",
+          "points": 0.788,
+          "c_last": 0.7879,
+          "c_mean": 0.7879,
+          "n_branches": 100,
+          "generation": 3,
+          "parent": "K3_G4"
+        },
+        {
+          "id": "K4_G2",
+          "role": "worker",
+          "points": 0.2,
+          "c_last": 0.7017,
+          "c_mean": 0.7017,
+          "n_branches": 100,
+          "generation": 2,
+          "parent": "K4_G1"
+        },
+        {
+          "id": "C5_A1",
+          "role": "worker",
+          "points": 0.531,
+          "c_last": 0.7433,
+          "c_mean": 0.7433,
+          "n_branches": 100,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G10",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.6737,
+          "c_mean": 0.6737,
+          "n_branches": 100,
+          "generation": 3,
+          "parent": "K4_G2"
+        },
+        {
+          "id": "K7_G3",
+          "role": "worker",
+          "points": 0.312,
+          "c_last": 0.7289,
+          "c_mean": 0.7289,
+          "n_branches": 100,
+          "generation": 2,
+          "parent": "K7_G1"
+        }
+      ],
+      "c_mean_overall": 0.7156
+    },
+    {
+      "generation": 12,
+      "time": 384.65075039863586,
+      "manager": "K3_G6",
+      "agents": [
+        {
+          "id": "K0_G7",
+          "role": "worker",
+          "points": 0.311,
+          "c_last": 0.7264,
+          "c_mean": 0.7264,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C0_A3"
+        },
+        {
+          "id": "G9",
+          "role": "worker",
+          "points": 0.416,
+          "c_last": 0.7279,
+          "c_mean": 0.7279,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C5_A1"
+        },
+        {
+          "id": "K2_G1",
+          "role": "worker",
+          "points": 0.531,
+          "c_last": 0.7429,
+          "c_mean": 0.7429,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C2_A2"
+        },
+        {
+          "id": "K3_G6",
+          "role": "manager",
+          "points": 0.761,
+          "c_last": 0.7609,
+          "c_mean": 0.7609,
+          "n_branches": 100,
+          "generation": 3,
+          "parent": "K3_G4"
+        },
+        {
+          "id": "G11",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7272,
+          "c_mean": 0.7272,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C5_A1"
+        },
+        {
+          "id": "C5_A1",
+          "role": "worker",
+          "points": 0.638,
+          "c_last": 0.744,
+          "c_mean": 0.744,
+          "n_branches": 100,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G12",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7142,
+          "c_mean": 0.7142,
+          "n_branches": 100,
+          "generation": 2,
+          "parent": "G11"
+        },
+        {
+          "id": "K7_G3",
+          "role": "worker",
+          "points": 0.206,
+          "c_last": 0.7202,
+          "c_mean": 0.7202,
+          "n_branches": 100,
+          "generation": 2,
+          "parent": "K7_G1"
+        }
+      ],
+      "c_mean_overall": 0.7292
+    },
+    {
+      "generation": 13,
+      "time": 393.2884712219238,
+      "manager": "K3_G6",
+      "agents": [
+        {
+          "id": "G13",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.728,
+          "c_mean": 0.728,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C5_A1"
+        },
+        {
+          "id": "G9",
+          "role": "worker",
+          "points": 0.207,
+          "c_last": 0.7233,
+          "c_mean": 0.7233,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C5_A1"
+        },
+        {
+          "id": "K2_G1",
+          "role": "worker",
+          "points": 0.317,
+          "c_last": 0.7387,
+          "c_mean": 0.7387,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C2_A2"
+        },
+        {
+          "id": "K3_G6",
+          "role": "manager",
+          "points": 0.764,
+          "c_last": 0.7637,
+          "c_mean": 0.7637,
+          "n_branches": 100,
+          "generation": 3,
+          "parent": "K3_G4"
+        },
+        {
+          "id": "G11",
+          "role": "worker",
+          "points": 0.423,
+          "c_last": 0.7401,
+          "c_mean": 0.7401,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C5_A1"
+        },
+        {
+          "id": "C5_A1",
+          "role": "worker",
+          "points": 0.636,
+          "c_last": 0.7424,
+          "c_mean": 0.7424,
+          "n_branches": 100,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G12",
+          "role": "worker",
+          "points": 0.529,
+          "c_last": 0.7402,
+          "c_mean": 0.7402,
+          "n_branches": 100,
+          "generation": 2,
+          "parent": "G11"
+        },
+        {
+          "id": "G14",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7311,
+          "c_mean": 0.7311,
+          "n_branches": 100,
+          "generation": 2,
+          "parent": "G11"
+        }
+      ],
+      "c_mean_overall": 0.7355
+    },
+    {
+      "generation": 14,
+      "time": 401.9126420021057,
+      "manager": "K3_G6",
+      "agents": [
+        {
+          "id": "G13",
+          "role": "worker",
+          "points": 0.638,
+          "c_last": 0.7449,
+          "c_mean": 0.7449,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C5_A1"
+        },
+        {
+          "id": "G15",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7285,
+          "c_mean": 0.7285,
+          "n_branches": 100,
+          "generation": 3,
+          "parent": "G12"
+        },
+        {
+          "id": "K2_G1",
+          "role": "worker",
+          "points": 0.21,
+          "c_last": 0.7346,
+          "c_mean": 0.7346,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C2_A2"
+        },
+        {
+          "id": "K3_G6",
+          "role": "manager",
+          "points": 0.762,
+          "c_last": 0.7622,
+          "c_mean": 0.7622,
+          "n_branches": 100,
+          "generation": 3,
+          "parent": "K3_G4"
+        },
+        {
+          "id": "G16",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7365,
+          "c_mean": 0.7365,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C5_A1"
+        },
+        {
+          "id": "C5_A1",
+          "role": "worker",
+          "points": 0.422,
+          "c_last": 0.7386,
+          "c_mean": 0.7386,
+          "n_branches": 100,
+          "generation": 0,
+          "parent": null
+        },
+        {
+          "id": "G12",
+          "role": "worker",
+          "points": 0.528,
+          "c_last": 0.7398,
+          "c_mean": 0.7398,
+          "n_branches": 100,
+          "generation": 2,
+          "parent": "G11"
+        },
+        {
+          "id": "G14",
+          "role": "worker",
+          "points": 0.316,
+          "c_last": 0.7372,
+          "c_mean": 0.7372,
+          "n_branches": 100,
+          "generation": 2,
+          "parent": "G11"
+        }
+      ],
+      "c_mean_overall": 0.7386
+    },
+    {
+      "generation": 15,
+      "time": 410.52609372138977,
+      "manager": "K3_G6",
+      "agents": [
+        {
+          "id": "G13",
+          "role": "worker",
+          "points": 0.64,
+          "c_last": 0.7464,
+          "c_mean": 0.7464,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C5_A1"
+        },
+        {
+          "id": "G15",
+          "role": "worker",
+          "points": 0.21,
+          "c_last": 0.7351,
+          "c_mean": 0.7351,
+          "n_branches": 100,
+          "generation": 3,
+          "parent": "G12"
+        },
+        {
+          "id": "G17",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.736,
+          "c_mean": 0.736,
+          "n_branches": 100,
+          "generation": 3,
+          "parent": "G12"
+        },
+        {
+          "id": "K3_G6",
+          "role": "manager",
+          "points": 0.754,
+          "c_last": 0.7543,
+          "c_mean": 0.7543,
+          "n_branches": 100,
+          "generation": 3,
+          "parent": "K3_G4"
+        },
+        {
+          "id": "G16",
+          "role": "worker",
+          "points": 0.315,
+          "c_last": 0.7361,
+          "c_mean": 0.7361,
+          "n_branches": 100,
+          "generation": 1,
+          "parent": "C5_A1"
+        },
+        {
+          "id": "G18",
+          "role": "worker",
+          "points": 0.0,
+          "c_last": 0.7353,
+          "c_mean": 0.7353,
+          "n_branches": 100,
+          "generation": 2,
+          "parent": "G16"
+        },
+        {
+          "id": "G12",
+          "role": "worker",
+          "points": 0.528,
+          "c_last": 0.7399,
+          "c_mean": 0.7399,
+          "n_branches": 100,
+          "generation": 2,
+          "parent": "G11"
+        },
+        {
+          "id": "G14",
+          "role": "worker",
+          "points": 0.421,
+          "c_last": 0.7365,
+          "c_mean": 0.7365,
+          "n_branches": 100,
+          "generation": 2,
+          "parent": "G11"
+        }
+      ],
+      "c_mean_overall": 0.7394
+    }
+  ],
+  "events": [
+    {
+      "time": 24.601654291152954,
+      "type": "CLAN_DISPLACE",
+      "clan": 0,
+      "generation": 1,
+      "detail": "DISPLACE:C0_A1->C0_A3"
+    },
+    {
+      "time": 24.60217261314392,
+      "type": "CLAN_DEATH",
+      "clan": 0,
+      "generation": 1,
+      "agent": "C0_A2"
+    },
+    {
+      "time": 24.638550281524658,
+      "type": "CLAN_BIRTH",
+      "clan": 0,
+      "generation": 1,
+      "agent": "K0_G1",
+      "parent": "C0_A4"
+    },
+    {
+      "time": 28.910837411880493,
+      "type": "CLAN_DISPLACE",
+      "clan": 1,
+      "generation": 1,
+      "detail": "DISPLACE:C1_A1->C1_A3"
+    },
+    {
+      "time": 28.911362648010254,
+      "type": "CLAN_DEATH",
+      "clan": 1,
+      "generation": 1,
+      "agent": "C1_A2"
+    },
+    {
+      "time": 28.947465658187866,
+      "type": "CLAN_BIRTH",
+      "clan": 1,
+      "generation": 1,
+      "agent": "K1_G1",
+      "parent": "C1_A4"
+    },
+    {
+      "time": 33.176936864852905,
+      "type": "CLAN_DISPLACE",
+      "clan": 2,
+      "generation": 1,
+      "detail": "DISPLACE:C2_A1->C2_A4"
+    },
+    {
+      "time": 33.17745566368103,
+      "type": "CLAN_DEATH",
+      "clan": 2,
+      "generation": 1,
+      "agent": "C2_A3"
+    },
+    {
+      "time": 33.21511220932007,
+      "type": "CLAN_BIRTH",
+      "clan": 2,
+      "generation": 1,
+      "agent": "K2_G1",
+      "parent": "C2_A2"
+    },
+    {
+      "time": 37.45620369911194,
+      "type": "CLAN_DISPLACE",
+      "clan": 3,
+      "generation": 1,
+      "detail": "DISPLACE:C3_A1->C3_A4"
+    },
+    {
+      "time": 37.45673871040344,
+      "type": "CLAN_DEATH",
+      "clan": 3,
+      "generation": 1,
+      "agent": "C3_A2"
+    },
+    {
+      "time": 37.49234986305237,
+      "type": "CLAN_BIRTH",
+      "clan": 3,
+      "generation": 1,
+      "agent": "K3_G1",
+      "parent": "C3_A3"
+    },
+    {
+      "time": 41.73589372634888,
+      "type": "CLAN_DISPLACE",
+      "clan": 4,
+      "generation": 1,
+      "detail": "DISPLACE:C4_A1->C4_A3"
+    },
+    {
+      "time": 41.736407995224,
+      "type": "CLAN_DEATH",
+      "clan": 4,
+      "generation": 1,
+      "agent": "C4_A4"
+    },
+    {
+      "time": 41.772109270095825,
+      "type": "CLAN_BIRTH",
+      "clan": 4,
+      "generation": 1,
+      "agent": "K4_G1",
+      "parent": "C4_A2"
+    },
+    {
+      "time": 46.05144906044006,
+      "type": "CLAN_DISPLACE",
+      "clan": 5,
+      "generation": 1,
+      "detail": "DISPLACE:C5_A1->C5_A4"
+    },
+    {
+      "time": 46.051963329315186,
+      "type": "CLAN_DEATH",
+      "clan": 5,
+      "generation": 1,
+      "agent": "C5_A3"
+    },
+    {
+      "time": 46.09301829338074,
+      "type": "CLAN_BIRTH",
+      "clan": 5,
+      "generation": 1,
+      "agent": "K5_G1",
+      "parent": "C5_A2"
+    },
+    {
+      "time": 50.3338418006897,
+      "type": "CLAN_DISPLACE",
+      "clan": 6,
+      "generation": 1,
+      "detail": "DISPLACE:C6_A1->C6_A3"
+    },
+    {
+      "time": 50.33435368537903,
+      "type": "CLAN_DEATH",
+      "clan": 6,
+      "generation": 1,
+      "agent": "C6_A4"
+    },
+    {
+      "time": 50.36384105682373,
+      "type": "CLAN_BIRTH",
+      "clan": 6,
+      "generation": 1,
+      "agent": "K6_G1",
+      "parent": "C6_A2"
+    },
+    {
+      "time": 54.590373277664185,
+      "type": "CLAN_DISPLACE",
+      "clan": 7,
+      "generation": 1,
+      "detail": "DISPLACE:C7_A1->C7_A3"
+    },
+    {
+      "time": 54.59089398384094,
+      "type": "CLAN_DEATH",
+      "clan": 7,
+      "generation": 1,
+      "agent": "C7_A2"
+    },
+    {
+      "time": 54.628495931625366,
+      "type": "CLAN_BIRTH",
+      "clan": 7,
+      "generation": 1,
+      "agent": "K7_G1",
+      "parent": "C7_A4"
+    },
+    {
+      "time": 59.43097257614136,
+      "type": "CLAN_DISPLACE",
+      "clan": 0,
+      "generation": 2,
+      "detail": "DISPLACE:C0_A3->C0_A1"
+    },
+    {
+      "time": 59.431429624557495,
+      "type": "CLAN_DEATH",
+      "clan": 0,
+      "generation": 2,
+      "agent": "C0_A4"
+    },
+    {
+      "time": 59.465622425079346,
+      "type": "CLAN_BIRTH",
+      "clan": 0,
+      "generation": 2,
+      "agent": "K0_G2",
+      "parent": "C0_A3"
+    },
+    {
+      "time": 63.73361086845398,
+      "type": "CLAN_DISPLACE",
+      "clan": 1,
+      "generation": 2,
+      "detail": "DISPLACE:C1_A3->C1_A1"
+    },
+    {
+      "time": 63.73412561416626,
+      "type": "CLAN_DEATH",
+      "clan": 1,
+      "generation": 2,
+      "agent": "C1_A4"
+    },
+    {
+      "time": 63.771477937698364,
+      "type": "CLAN_BIRTH",
+      "clan": 1,
+      "generation": 2,
+      "agent": "K1_G2",
+      "parent": "C1_A3"
+    },
+    {
+      "time": 67.99154853820801,
+      "type": "CLAN_DISPLACE",
+      "clan": 2,
+      "generation": 2,
+      "detail": "DISPLACE:C2_A4->K2_G1"
+    },
+    {
+      "time": 67.99206924438477,
+      "type": "CLAN_DEATH",
+      "clan": 2,
+      "generation": 2,
+      "agent": "C2_A2"
+    },
+    {
+      "time": 68.02809643745422,
+      "type": "CLAN_BIRTH",
+      "clan": 2,
+      "generation": 2,
+      "agent": "K2_G2",
+      "parent": "C2_A4"
+    },
+    {
+      "time": 72.280592918396,
+      "type": "CLAN_DISPLACE",
+      "clan": 3,
+      "generation": 2,
+      "detail": "DISPLACE:C3_A4->C3_A3"
+    },
+    {
+      "time": 72.2811119556427,
+      "type": "CLAN_DEATH",
+      "clan": 3,
+      "generation": 2,
+      "agent": "K3_G1"
+    },
+    {
+      "time": 72.3190393447876,
+      "type": "CLAN_BIRTH",
+      "clan": 3,
+      "generation": 2,
+      "agent": "K3_G2",
+      "parent": "C3_A4"
+    },
+    {
+      "time": 76.5971839427948,
+      "type": "CLAN_DEATH",
+      "clan": 4,
+      "generation": 2,
+      "agent": "C4_A1"
+    },
+    {
+      "time": 76.63181066513062,
+      "type": "CLAN_BIRTH",
+      "clan": 4,
+      "generation": 2,
+      "agent": "K4_G2",
+      "parent": "K4_G1"
+    },
+    {
+      "time": 80.90007877349854,
+      "type": "CLAN_DISPLACE",
+      "clan": 5,
+      "generation": 2,
+      "detail": "DISPLACE:C5_A4->C5_A1"
+    },
+    {
+      "time": 80.90059900283813,
+      "type": "CLAN_DEATH",
+      "clan": 5,
+      "generation": 2,
+      "agent": "C5_A2"
+    },
+    {
+      "time": 81.04556035995483,
+      "type": "CLAN_BIRTH",
+      "clan": 5,
+      "generation": 2,
+      "agent": "K5_G2",
+      "parent": "C5_A4"
+    },
+    {
+      "time": 85.32488870620728,
+      "type": "CLAN_DEATH",
+      "clan": 6,
+      "generation": 2,
+      "agent": "C6_A2"
+    },
+    {
+      "time": 85.35995674133301,
+      "type": "CLAN_BIRTH",
+      "clan": 6,
+      "generation": 2,
+      "agent": "K6_G2",
+      "parent": "K6_G1"
+    },
+    {
+      "time": 89.61756992340088,
+      "type": "CLAN_DISPLACE",
+      "clan": 7,
+      "generation": 2,
+      "detail": "DISPLACE:C7_A3->C7_A1"
+    },
+    {
+      "time": 89.61807894706726,
+      "type": "CLAN_DEATH",
+      "clan": 7,
+      "generation": 2,
+      "agent": "C7_A4"
+    },
+    {
+      "time": 89.6519980430603,
+      "type": "CLAN_BIRTH",
+      "clan": 7,
+      "generation": 2,
+      "agent": "K7_G2",
+      "parent": "C7_A3"
+    },
+    {
+      "time": 94.67111206054688,
+      "type": "CLAN_DEATH",
+      "clan": 0,
+      "generation": 3,
+      "agent": "K0_G2"
+    },
+    {
+      "time": 94.70379543304443,
+      "type": "CLAN_BIRTH",
+      "clan": 0,
+      "generation": 3,
+      "agent": "K0_G3",
+      "parent": "C0_A3"
+    },
+    {
+      "time": 98.98051953315735,
+      "type": "CLAN_DEATH",
+      "clan": 1,
+      "generation": 3,
+      "agent": "C1_A3"
+    },
+    {
+      "time": 99.01680397987366,
+      "type": "CLAN_BIRTH",
+      "clan": 1,
+      "generation": 3,
+      "agent": "K1_G3",
+      "parent": "K1_G2"
+    },
+    {
+      "time": 103.29754829406738,
+      "type": "CLAN_DISPLACE",
+      "clan": 2,
+      "generation": 3,
+      "detail": "DISPLACE:K2_G1->K2_G2"
+    },
+    {
+      "time": 103.29808521270752,
+      "type": "CLAN_DEATH",
+      "clan": 2,
+      "generation": 3,
+      "agent": "C2_A1"
+    },
+    {
+      "time": 103.33507704734802,
+      "type": "CLAN_BIRTH",
+      "clan": 2,
+      "generation": 3,
+      "agent": "K2_G3",
+      "parent": "C2_A4"
+    },
+    {
+      "time": 107.6062421798706,
+      "type": "CLAN_DEATH",
+      "clan": 3,
+      "generation": 3,
+      "agent": "C3_A4"
+    },
+    {
+      "time": 107.65038132667542,
+      "type": "CLAN_BIRTH",
+      "clan": 3,
+      "generation": 3,
+      "agent": "K3_G3",
+      "parent": "K3_G2"
+    },
+    {
+      "time": 111.90617251396179,
+      "type": "CLAN_DISPLACE",
+      "clan": 4,
+      "generation": 3,
+      "detail": "DISPLACE:C4_A3->C4_A2"
+    },
+    {
+      "time": 111.90667772293091,
+      "type": "CLAN_DEATH",
+      "clan": 4,
+      "generation": 3,
+      "agent": "K4_G1"
+    },
+    {
+      "time": 111.94378280639648,
+      "type": "CLAN_BIRTH",
+      "clan": 4,
+      "generation": 3,
+      "agent": "K4_G3",
+      "parent": "C4_A3"
+    },
+    {
+      "time": 116.19830179214478,
+      "type": "CLAN_DEATH",
+      "clan": 5,
+      "generation": 3,
+      "agent": "K5_G2"
+    },
+    {
+      "time": 116.23455023765564,
+      "type": "CLAN_BIRTH",
+      "clan": 5,
+      "generation": 3,
+      "agent": "K5_G3",
+      "parent": "C5_A4"
+    },
+    {
+      "time": 120.46651291847229,
+      "type": "CLAN_DEATH",
+      "clan": 6,
+      "generation": 3,
+      "agent": "K6_G2"
+    },
+    {
+      "time": 120.50083827972412,
+      "type": "CLAN_BIRTH",
+      "clan": 6,
+      "generation": 3,
+      "agent": "K6_G3",
+      "parent": "K6_G1"
+    },
+    {
+      "time": 124.75386881828308,
+      "type": "CLAN_DISPLACE",
+      "clan": 7,
+      "generation": 3,
+      "detail": "DISPLACE:C7_A1->K7_G2"
+    },
+    {
+      "time": 124.75438785552979,
+      "type": "CLAN_DEATH",
+      "clan": 7,
+      "generation": 3,
+      "agent": "C7_A3"
+    },
+    {
+      "time": 124.79160594940186,
+      "type": "CLAN_BIRTH",
+      "clan": 7,
+      "generation": 3,
+      "agent": "K7_G3",
+      "parent": "K7_G1"
+    },
+    {
+      "time": 129.67785167694092,
+      "type": "CLAN_DISPLACE",
+      "clan": 0,
+      "generation": 4,
+      "detail": "DISPLACE:C0_A1->C0_A3"
+    },
+    {
+      "time": 129.6783139705658,
+      "type": "CLAN_DEATH",
+      "clan": 0,
+      "generation": 4,
+      "agent": "K0_G3"
+    },
+    {
+      "time": 129.71212697029114,
+      "type": "CLAN_BIRTH",
+      "clan": 0,
+      "generation": 4,
+      "agent": "K0_G4",
+      "parent": "K0_G1"
+    },
+    {
+      "time": 133.9955608844757,
+      "type": "CLAN_DEATH",
+      "clan": 1,
+      "generation": 4,
+      "agent": "K1_G3"
+    },
+    {
+      "time": 134.03256726264954,
+      "type": "CLAN_BIRTH",
+      "clan": 1,
+      "generation": 4,
+      "agent": "K1_G4",
+      "parent": "K1_G2"
+    },
+    {
+      "time": 138.29864358901978,
+      "type": "CLAN_DISPLACE",
+      "clan": 2,
+      "generation": 4,
+      "detail": "DISPLACE:K2_G2->K2_G1"
+    },
+    {
+      "time": 138.29915380477905,
+      "type": "CLAN_DEATH",
+      "clan": 2,
+      "generation": 4,
+      "agent": "C2_A4"
+    },
+    {
+      "time": 138.332622051239,
+      "type": "CLAN_BIRTH",
+      "clan": 2,
+      "generation": 4,
+      "agent": "K2_G4",
+      "parent": "K2_G2"
+    },
+    {
+      "time": 142.61141347885132,
+      "type": "CLAN_DEATH",
+      "clan": 3,
+      "generation": 4,
+      "agent": "K3_G3"
+    },
+    {
+      "time": 142.6469156742096,
+      "type": "CLAN_BIRTH",
+      "clan": 3,
+      "generation": 4,
+      "agent": "K3_G4",
+      "parent": "K3_G2"
+    },
+    {
+      "time": 146.9157702922821,
+      "type": "CLAN_DEATH",
+      "clan": 4,
+      "generation": 4,
+      "agent": "K4_G3"
+    },
+    {
+      "time": 146.9529094696045,
+      "type": "CLAN_BIRTH",
+      "clan": 4,
+      "generation": 4,
+      "agent": "K4_G4",
+      "parent": "C4_A3"
+    },
+    {
+      "time": 151.20968294143677,
+      "type": "CLAN_DEATH",
+      "clan": 5,
+      "generation": 4,
+      "agent": "K5_G3"
+    },
+    {
+      "time": 151.24882340431213,
+      "type": "CLAN_BIRTH",
+      "clan": 5,
+      "generation": 4,
+      "agent": "K5_G4",
+      "parent": "C5_A4"
+    },
+    {
+      "time": 155.52879548072815,
+      "type": "CLAN_DEATH",
+      "clan": 6,
+      "generation": 4,
+      "agent": "K6_G3"
+    },
+    {
+      "time": 155.56024932861328,
+      "type": "CLAN_BIRTH",
+      "clan": 6,
+      "generation": 4,
+      "agent": "K6_G4",
+      "parent": "K6_G1"
+    },
+    {
+      "time": 159.81253337860107,
+      "type": "CLAN_DEATH",
+      "clan": 7,
+      "generation": 4,
+      "agent": "K7_G1"
+    },
+    {
+      "time": 159.8487892150879,
+      "type": "CLAN_BIRTH",
+      "clan": 7,
+      "generation": 4,
+      "agent": "K7_G4",
+      "parent": "K7_G3"
+    },
+    {
+      "time": 164.66474652290344,
+      "type": "CLAN_DEATH",
+      "clan": 0,
+      "generation": 5,
+      "agent": "K0_G1"
+    },
+    {
+      "time": 164.69815158843994,
+      "type": "CLAN_BIRTH",
+      "clan": 0,
+      "generation": 5,
+      "agent": "K0_G5",
+      "parent": "K0_G4"
+    },
+    {
+      "time": 168.93804049491882,
+      "type": "CLAN_DEATH",
+      "clan": 1,
+      "generation": 5,
+      "agent": "K1_G1"
+    },
+    {
+      "time": 168.98409008979797,
+      "type": "CLAN_BIRTH",
+      "clan": 1,
+      "generation": 5,
+      "agent": "K1_G5",
+      "parent": "K1_G2"
+    },
+    {
+      "time": 173.29105424880981,
+      "type": "CLAN_DEATH",
+      "clan": 2,
+      "generation": 5,
+      "agent": "K2_G4"
+    },
+    {
+      "time": 173.32739543914795,
+      "type": "CLAN_BIRTH",
+      "clan": 2,
+      "generation": 5,
+      "agent": "K2_G5",
+      "parent": "K2_G2"
+    },
+    {
+      "time": 177.58403658866882,
+      "type": "CLAN_DISPLACE",
+      "clan": 3,
+      "generation": 5,
+      "detail": "DISPLACE:C3_A3->K3_G2"
+    },
+    {
+      "time": 177.58456540107727,
+      "type": "CLAN_DEATH",
+      "clan": 3,
+      "generation": 5,
+      "agent": "C3_A1"
+    },
+    {
+      "time": 177.61746740341187,
+      "type": "CLAN_BIRTH",
+      "clan": 3,
+      "generation": 5,
+      "agent": "K3_G5",
+      "parent": "K3_G4"
+    },
+    {
+      "time": 181.85655331611633,
+      "type": "CLAN_DISPLACE",
+      "clan": 4,
+      "generation": 5,
+      "detail": "DISPLACE:C4_A2->K4_G2"
+    },
+    {
+      "time": 181.85707807540894,
+      "type": "CLAN_DEATH",
+      "clan": 4,
+      "generation": 5,
+      "agent": "C4_A3"
+    },
+    {
+      "time": 181.89388227462769,
+      "type": "CLAN_BIRTH",
+      "clan": 4,
+      "generation": 5,
+      "agent": "K4_G5",
+      "parent": "K4_G4"
+    },
+    {
+      "time": 186.17777729034424,
+      "type": "CLAN_DEATH",
+      "clan": 5,
+      "generation": 5,
+      "agent": "K5_G4"
+    },
+    {
+      "time": 186.2173614501953,
+      "type": "CLAN_BIRTH",
+      "clan": 5,
+      "generation": 5,
+      "agent": "K5_G5",
+      "parent": "C5_A4"
+    },
+    {
+      "time": 190.48784518241882,
+      "type": "CLAN_DISPLACE",
+      "clan": 6,
+      "generation": 5,
+      "detail": "DISPLACE:C6_A3->K6_G1"
+    },
+    {
+      "time": 190.48837637901306,
+      "type": "CLAN_DEATH",
+      "clan": 6,
+      "generation": 5,
+      "agent": "K6_G4"
+    },
+    {
+      "time": 190.52492690086365,
+      "type": "CLAN_BIRTH",
+      "clan": 6,
+      "generation": 5,
+      "agent": "K6_G5",
+      "parent": "C6_A3"
+    },
+    {
+      "time": 194.81251978874207,
+      "type": "CLAN_DISPLACE",
+      "clan": 7,
+      "generation": 5,
+      "detail": "DISPLACE:K7_G2->K7_G3"
+    },
+    {
+      "time": 194.81307291984558,
+      "type": "CLAN_DEATH",
+      "clan": 7,
+      "generation": 5,
+      "agent": "C7_A1"
+    },
+    {
+      "time": 194.84942030906677,
+      "type": "CLAN_BIRTH",
+      "clan": 7,
+      "generation": 5,
+      "agent": "K7_G5",
+      "parent": "K7_G2"
+    },
+    {
+      "time": 199.7079427242279,
+      "type": "CLAN_DEATH",
+      "clan": 0,
+      "generation": 6,
+      "agent": "K0_G5"
+    },
+    {
+      "time": 199.74133443832397,
+      "type": "CLAN_BIRTH",
+      "clan": 0,
+      "generation": 6,
+      "agent": "K0_G6",
+      "parent": "K0_G4"
+    },
+    {
+      "time": 204.0378499031067,
+      "type": "CLAN_DEATH",
+      "clan": 1,
+      "generation": 6,
+      "agent": "K1_G5"
+    },
+    {
+      "time": 204.07225513458252,
+      "type": "CLAN_BIRTH",
+      "clan": 1,
+      "generation": 6,
+      "agent": "K1_G6",
+      "parent": "K1_G2"
+    },
+    {
+      "time": 208.3657660484314,
+      "type": "CLAN_DEATH",
+      "clan": 2,
+      "generation": 6,
+      "agent": "K2_G5"
+    },
+    {
+      "time": 208.40176510810852,
+      "type": "CLAN_BIRTH",
+      "clan": 2,
+      "generation": 6,
+      "agent": "K2_G6",
+      "parent": "K2_G2"
+    },
+    {
+      "time": 212.68958020210266,
+      "type": "CLAN_DISPLACE",
+      "clan": 3,
+      "generation": 6,
+      "detail": "DISPLACE:K3_G2->K3_G5"
+    },
+    {
+      "time": 212.69010853767395,
+      "type": "CLAN_DEATH",
+      "clan": 3,
+      "generation": 6,
+      "agent": "C3_A3"
+    },
+    {
+      "time": 212.72568798065186,
+      "type": "CLAN_BIRTH",
+      "clan": 3,
+      "generation": 6,
+      "agent": "K3_G6",
+      "parent": "K3_G4"
+    },
+    {
+      "time": 217.0364601612091,
+      "type": "CLAN_DEATH",
+      "clan": 4,
+      "generation": 6,
+      "agent": "C4_A2"
+    },
+    {
+      "time": 217.07176613807678,
+      "type": "CLAN_BIRTH",
+      "clan": 4,
+      "generation": 6,
+      "agent": "K4_G6",
+      "parent": "K4_G4"
+    },
+    {
+      "time": 221.36103582382202,
+      "type": "CLAN_DEATH",
+      "clan": 5,
+      "generation": 6,
+      "agent": "C5_A4"
+    },
+    {
+      "time": 221.39632415771484,
+      "type": "CLAN_BIRTH",
+      "clan": 5,
+      "generation": 6,
+      "agent": "K5_G6",
+      "parent": "K5_G1"
+    },
+    {
+      "time": 225.67122149467468,
+      "type": "CLAN_DEATH",
+      "clan": 6,
+      "generation": 6,
+      "agent": "K6_G5"
+    },
+    {
+      "time": 225.70584726333618,
+      "type": "CLAN_BIRTH",
+      "clan": 6,
+      "generation": 6,
+      "agent": "K6_G6",
+      "parent": "C6_A3"
+    },
+    {
+      "time": 229.97530031204224,
+      "type": "CLAN_DEATH",
+      "clan": 7,
+      "generation": 6,
+      "agent": "K7_G5"
+    },
+    {
+      "time": 230.0177857875824,
+      "type": "CLAN_BIRTH",
+      "clan": 7,
+      "generation": 6,
+      "agent": "K7_G6",
+      "parent": "K7_G2"
+    },
+    {
+      "time": 234.85081720352173,
+      "type": "CLAN_DISPLACE",
+      "clan": 0,
+      "generation": 7,
+      "detail": "DISPLACE:C0_A3->K0_G4"
+    },
+    {
+      "time": 234.85131096839905,
+      "type": "CLAN_DEATH",
+      "clan": 0,
+      "generation": 7,
+      "agent": "C0_A1"
+    },
+    {
+      "time": 234.88322496414185,
+      "type": "CLAN_BIRTH",
+      "clan": 0,
+      "generation": 7,
+      "agent": "K0_G7",
+      "parent": "C0_A3"
+    },
+    {
+      "time": 239.18793773651123,
+      "type": "CLAN_DISPLACE",
+      "clan": 1,
+      "generation": 7,
+      "detail": "DISPLACE:C1_A1->K1_G4"
+    },
+    {
+      "time": 239.188490152359,
+      "type": "CLAN_DEATH",
+      "clan": 1,
+      "generation": 7,
+      "agent": "K1_G6"
+    },
+    {
+      "time": 239.22360920906067,
+      "type": "CLAN_BIRTH",
+      "clan": 1,
+      "generation": 7,
+      "agent": "K1_G7",
+      "parent": "K1_G2"
+    },
+    {
+      "time": 243.5329556465149,
+      "type": "CLAN_DEATH",
+      "clan": 2,
+      "generation": 7,
+      "agent": "K2_G6"
+    },
+    {
+      "time": 243.5673427581787,
+      "type": "CLAN_BIRTH",
+      "clan": 2,
+      "generation": 7,
+      "agent": "K2_G7",
+      "parent": "K2_G2"
+    },
+    {
+      "time": 247.86811923980713,
+      "type": "CLAN_DISPLACE",
+      "clan": 3,
+      "generation": 7,
+      "detail": "DISPLACE:K3_G5->K3_G6"
+    },
+    {
+      "time": 247.8686330318451,
+      "type": "CLAN_DEATH",
+      "clan": 3,
+      "generation": 7,
+      "agent": "K3_G4"
+    },
+    {
+      "time": 247.9038689136505,
+      "type": "CLAN_BIRTH",
+      "clan": 3,
+      "generation": 7,
+      "agent": "K3_G7",
+      "parent": "K3_G2"
+    },
+    {
+      "time": 252.1727819442749,
+      "type": "CLAN_DEATH",
+      "clan": 4,
+      "generation": 7,
+      "agent": "K4_G5"
+    },
+    {
+      "time": 252.20748949050903,
+      "type": "CLAN_BIRTH",
+      "clan": 4,
+      "generation": 7,
+      "agent": "K4_G7",
+      "parent": "K4_G4"
+    },
+    {
+      "time": 256.4811305999756,
+      "type": "CLAN_DEATH",
+      "clan": 5,
+      "generation": 7,
+      "agent": "K5_G1"
+    },
+    {
+      "time": 256.5173008441925,
+      "type": "CLAN_BIRTH",
+      "clan": 5,
+      "generation": 7,
+      "agent": "K5_G7",
+      "parent": "K5_G6"
+    },
+    {
+      "time": 260.8027904033661,
+      "type": "CLAN_DEATH",
+      "clan": 6,
+      "generation": 7,
+      "agent": "K6_G6"
+    },
+    {
+      "time": 260.8381884098053,
+      "type": "CLAN_BIRTH",
+      "clan": 6,
+      "generation": 7,
+      "agent": "K6_G7",
+      "parent": "C6_A3"
+    },
+    {
+      "time": 265.2066066265106,
+      "type": "CLAN_DEATH",
+      "clan": 7,
+      "generation": 7,
+      "agent": "K7_G6"
+    },
+    {
+      "time": 265.24146270751953,
+      "type": "CLAN_BIRTH",
+      "clan": 7,
+      "generation": 7,
+      "agent": "K7_G7",
+      "parent": "K7_G2"
+    },
+    {
+      "time": 270.0659508705139,
+      "type": "CLAN_DEATH",
+      "clan": 0,
+      "generation": 8,
+      "agent": "C0_A3"
+    },
+    {
+      "time": 270.09817028045654,
+      "type": "CLAN_BIRTH",
+      "clan": 0,
+      "generation": 8,
+      "agent": "K0_G8",
+      "parent": "K0_G6"
+    },
+    {
+      "time": 274.3709590435028,
+      "type": "CLAN_DEATH",
+      "clan": 1,
+      "generation": 8,
+      "agent": "K1_G7"
+    },
+    {
+      "time": 274.406453371048,
+      "type": "CLAN_BIRTH",
+      "clan": 1,
+      "generation": 8,
+      "agent": "K1_G8",
+      "parent": "K1_G2"
+    },
+    {
+      "time": 278.72047209739685,
+      "type": "CLAN_DEATH",
+      "clan": 2,
+      "generation": 8,
+      "agent": "K2_G7"
+    },
+    {
+      "time": 278.7571134567261,
+      "type": "CLAN_BIRTH",
+      "clan": 2,
+      "generation": 8,
+      "agent": "K2_G8",
+      "parent": "K2_G2"
+    },
+    {
+      "time": 283.23337483406067,
+      "type": "CLAN_DEATH",
+      "clan": 3,
+      "generation": 8,
+      "agent": "K3_G5"
+    },
+    {
+      "time": 283.26906847953796,
+      "type": "CLAN_BIRTH",
+      "clan": 3,
+      "generation": 8,
+      "agent": "K3_G8",
+      "parent": "K3_G7"
+    },
+    {
+      "time": 287.5634620189667,
+      "type": "CLAN_DEATH",
+      "clan": 4,
+      "generation": 8,
+      "agent": "K4_G6"
+    },
+    {
+      "time": 287.5998842716217,
+      "type": "CLAN_BIRTH",
+      "clan": 4,
+      "generation": 8,
+      "agent": "K4_G8",
+      "parent": "K4_G4"
+    },
+    {
+      "time": 291.85048842430115,
+      "type": "CLAN_DEATH",
+      "clan": 5,
+      "generation": 8,
+      "agent": "K5_G7"
+    },
+    {
+      "time": 291.89558815956116,
+      "type": "CLAN_BIRTH",
+      "clan": 5,
+      "generation": 8,
+      "agent": "K5_G8",
+      "parent": "K5_G6"
+    },
+    {
+      "time": 296.1746892929077,
+      "type": "CLAN_DEATH",
+      "clan": 6,
+      "generation": 8,
+      "agent": "K6_G7"
+    },
+    {
+      "time": 296.2138969898224,
+      "type": "CLAN_BIRTH",
+      "clan": 6,
+      "generation": 8,
+      "agent": "K6_G8",
+      "parent": "C6_A3"
+    },
+    {
+      "time": 300.50710582733154,
+      "type": "CLAN_DEATH",
+      "clan": 7,
+      "generation": 8,
+      "agent": "K7_G7"
+    },
+    {
+      "time": 300.54039120674133,
+      "type": "CLAN_BIRTH",
+      "clan": 7,
+      "generation": 8,
+      "agent": "K7_G8",
+      "parent": "K7_G2"
+    },
+    {
+      "time": 305.40824270248413,
+      "type": "CLAN_DISPLACE",
+      "clan": 0,
+      "generation": 9,
+      "detail": "DISPLACE:K0_G4->K0_G7"
+    },
+    {
+      "time": 305.4087464809418,
+      "type": "CLAN_DEATH",
+      "clan": 0,
+      "generation": 9,
+      "agent": "K0_G6"
+    },
+    {
+      "time": 305.4429488182068,
+      "type": "CLAN_BIRTH",
+      "clan": 0,
+      "generation": 9,
+      "agent": "K0_G9",
+      "parent": "K0_G4"
+    },
+    {
+      "time": 309.72944688796997,
+      "type": "CLAN_DEATH",
+      "clan": 1,
+      "generation": 9,
+      "agent": "K1_G8"
+    },
+    {
+      "time": 309.7667670249939,
+      "type": "CLAN_BIRTH",
+      "clan": 1,
+      "generation": 9,
+      "agent": "K1_G9",
+      "parent": "K1_G2"
+    },
+    {
+      "time": 314.04410004615784,
+      "type": "CLAN_DEATH",
+      "clan": 2,
+      "generation": 9,
+      "agent": "K2_G8"
+    },
+    {
+      "time": 314.0812973976135,
+      "type": "CLAN_BIRTH",
+      "clan": 2,
+      "generation": 9,
+      "agent": "K2_G9",
+      "parent": "K2_G2"
+    },
+    {
+      "time": 318.3800790309906,
+      "type": "CLAN_DEATH",
+      "clan": 3,
+      "generation": 9,
+      "agent": "K3_G2"
+    },
+    {
+      "time": 318.4161765575409,
+      "type": "CLAN_BIRTH",
+      "clan": 3,
+      "generation": 9,
+      "agent": "K3_G9",
+      "parent": "K3_G7"
+    },
+    {
+      "time": 322.7514305114746,
+      "type": "CLAN_DEATH",
+      "clan": 4,
+      "generation": 9,
+      "agent": "K4_G7"
+    },
+    {
+      "time": 322.7854812145233,
+      "type": "CLAN_BIRTH",
+      "clan": 4,
+      "generation": 9,
+      "agent": "K4_G9",
+      "parent": "K4_G4"
+    },
+    {
+      "time": 327.0852029323578,
+      "type": "CLAN_DEATH",
+      "clan": 5,
+      "generation": 9,
+      "agent": "K5_G5"
+    },
+    {
+      "time": 327.12152099609375,
+      "type": "CLAN_BIRTH",
+      "clan": 5,
+      "generation": 9,
+      "agent": "K5_G9",
+      "parent": "K5_G6"
+    },
+    {
+      "time": 331.41039204597473,
+      "type": "CLAN_DEATH",
+      "clan": 6,
+      "generation": 9,
+      "agent": "K6_G8"
+    },
+    {
+      "time": 331.44825530052185,
+      "type": "CLAN_BIRTH",
+      "clan": 6,
+      "generation": 9,
+      "agent": "K6_G9",
+      "parent": "C6_A3"
+    },
+    {
+      "time": 335.7933497428894,
+      "type": "CLAN_DEATH",
+      "clan": 7,
+      "generation": 9,
+      "agent": "K7_G8"
+    },
+    {
+      "time": 335.82527899742126,
+      "type": "CLAN_BIRTH",
+      "clan": 7,
+      "generation": 9,
+      "agent": "K7_G9",
+      "parent": "K7_G2"
+    },
+    {
+      "time": 340.7074327468872,
+      "type": "CLAN_DEATH",
+      "clan": 0,
+      "generation": 10,
+      "agent": "K0_G8"
+    },
+    {
+      "time": 340.7414093017578,
+      "type": "CLAN_BIRTH",
+      "clan": 0,
+      "generation": 10,
+      "agent": "K0_G10",
+      "parent": "K0_G4"
+    },
+    {
+      "time": 345.03084778785706,
+      "type": "CLAN_DEATH",
+      "clan": 1,
+      "generation": 10,
+      "agent": "K1_G9"
+    },
+    {
+      "time": 345.06876158714294,
+      "type": "CLAN_BIRTH",
+      "clan": 1,
+      "generation": 10,
+      "agent": "K1_G10",
+      "parent": "K1_G2"
+    },
+    {
+      "time": 349.3497939109802,
+      "type": "CLAN_DEATH",
+      "clan": 2,
+      "generation": 10,
+      "agent": "K2_G9"
+    },
+    {
+      "time": 349.38647198677063,
+      "type": "CLAN_BIRTH",
+      "clan": 2,
+      "generation": 10,
+      "agent": "K2_G10",
+      "parent": "K2_G2"
+    },
+    {
+      "time": 353.6786243915558,
+      "type": "CLAN_DEATH",
+      "clan": 3,
+      "generation": 10,
+      "agent": "K3_G8"
+    },
+    {
+      "time": 353.72496008872986,
+      "type": "CLAN_BIRTH",
+      "clan": 3,
+      "generation": 10,
+      "agent": "K3_G10",
+      "parent": "K3_G7"
+    },
+    {
+      "time": 358.0014679431915,
+      "type": "CLAN_DEATH",
+      "clan": 4,
+      "generation": 10,
+      "agent": "K4_G4"
+    },
+    {
+      "time": 358.03615856170654,
+      "type": "CLAN_BIRTH",
+      "clan": 4,
+      "generation": 10,
+      "agent": "K4_G10",
+      "parent": "K4_G9"
+    },
+    {
+      "time": 362.3699312210083,
+      "type": "CLAN_DEATH",
+      "clan": 5,
+      "generation": 10,
+      "agent": "K5_G8"
+    },
+    {
+      "time": 362.4034595489502,
+      "type": "CLAN_BIRTH",
+      "clan": 5,
+      "generation": 10,
+      "agent": "K5_G10",
+      "parent": "K5_G6"
+    },
+    {
+      "time": 366.6434028148651,
+      "type": "CLAN_DEATH",
+      "clan": 6,
+      "generation": 10,
+      "agent": "C6_A3"
+    },
+    {
+      "time": 366.679584980011,
+      "type": "CLAN_BIRTH",
+      "clan": 6,
+      "generation": 10,
+      "agent": "K6_G10",
+      "parent": "K6_G9"
+    },
+    {
+      "time": 370.97669982910156,
+      "type": "CLAN_DEATH",
+      "clan": 7,
+      "generation": 10,
+      "agent": "K7_G9"
+    },
+    {
+      "time": 371.0155944824219,
+      "type": "CLAN_BIRTH",
+      "clan": 7,
+      "generation": 10,
+      "agent": "K7_G10",
+      "parent": "K7_G2"
+    },
+    {
+      "time": 375.9915702342987,
+      "type": "DISPLACE",
+      "generation": 11,
+      "detail": "DISPLACE:K0_G7->K3_G6"
+    },
+    {
+      "time": 375.9921052455902,
+      "type": "DEATH",
+      "generation": 11,
+      "agent": "K1_G4"
+    },
+    {
+      "time": 375.9925591945648,
+      "type": "DEATH",
+      "generation": 11,
+      "agent": "K6_G1"
+    },
+    {
+      "time": 376.0261881351471,
+      "type": "BIRTH",
+      "generation": 11,
+      "agent": "G9"
+    },
+    {
+      "time": 376.0594439506531,
+      "type": "BIRTH",
+      "generation": 11,
+      "agent": "G10"
+    },
+    {
+      "time": 384.5853021144867,
+      "type": "DEATH",
+      "generation": 12,
+      "agent": "G10"
+    },
+    {
+      "time": 384.58577156066895,
+      "type": "DEATH",
+      "generation": 12,
+      "agent": "K4_G2"
+    },
+    {
+      "time": 384.61981296539307,
+      "type": "BIRTH",
+      "generation": 12,
+      "agent": "G11"
+    },
+    {
+      "time": 384.65059423446655,
+      "type": "BIRTH",
+      "generation": 12,
+      "agent": "G12"
+    },
+    {
+      "time": 393.21748661994934,
+      "type": "DEATH",
+      "generation": 13,
+      "agent": "K0_G7"
+    },
+    {
+      "time": 393.2179253101349,
+      "type": "DEATH",
+      "generation": 13,
+      "agent": "K7_G3"
+    },
+    {
+      "time": 393.25175285339355,
+      "type": "BIRTH",
+      "generation": 13,
+      "agent": "G13"
+    },
+    {
+      "time": 393.28837752342224,
+      "type": "BIRTH",
+      "generation": 13,
+      "agent": "G14"
+    },
+    {
+      "time": 401.8447301387787,
+      "type": "DEATH",
+      "generation": 14,
+      "agent": "G9"
+    },
+    {
+      "time": 401.84518551826477,
+      "type": "DEATH",
+      "generation": 14,
+      "agent": "G11"
+    },
+    {
+      "time": 401.87922763824463,
+      "type": "BIRTH",
+      "generation": 14,
+      "agent": "G15"
+    },
+    {
+      "time": 401.9125554561615,
+      "type": "BIRTH",
+      "generation": 14,
+      "agent": "G16"
+    },
+    {
+      "time": 410.459308385849,
+      "type": "DEATH",
+      "generation": 15,
+      "agent": "K2_G1"
+    },
+    {
+      "time": 410.45976519584656,
+      "type": "DEATH",
+      "generation": 15,
+      "agent": "C5_A1"
+    },
+    {
+      "time": 410.49337816238403,
+      "type": "BIRTH",
+      "generation": 15,
+      "agent": "G17"
+    },
+    {
+      "time": 410.52593445777893,
+      "type": "BIRTH",
+      "generation": 15,
+      "agent": "G18"
+    }
+  ]
+}
